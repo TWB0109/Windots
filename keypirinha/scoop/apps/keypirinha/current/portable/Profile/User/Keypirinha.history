@@ -1,0 +1,66 @@
+{
+   ".header" : {
+      "creator" : "Keypirinha v2.26 (e037f62)",
+      "creator_url" : "http://keypirinha.com/",
+      "format" : 102,
+      "modified" : "2022-08-19T05:50:20+0000",
+      "type" : "history"
+   },
+   "history" : [
+      {
+         "action" : null,
+         "item" : 7544475573990267934,
+         "label" : "Keypirinha: Configure",
+         "time" : "2022-08-19T05:44:26+0000"
+      },
+      {
+         "action" : null,
+         "item" : 7544475573990267934,
+         "label" : "Keypirinha: Configure",
+         "time" : "2022-08-19T05:46:59+0000"
+      },
+      {
+         "action" : null,
+         "item" : 10727653551925446987,
+         "label" : "Firefox",
+         "time" : "2022-08-19T05:50:20+0000"
+      }
+   ],
+   "sets" : {
+      "actions" : [],
+      "items" : [
+         {
+            "args_hint" : "accepted",
+            "category" : "file",
+            "hit_hint" : "keepall",
+            "id" : 10727653551925446987,
+            "label" : "Firefox",
+            "loop_on_suggest" : false,
+            "plugin" : "Apps.StartMenu",
+            "short_desc" : "Start Menu: Programs",
+            "target" : "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Firefox.lnk"
+         },
+         {
+            "args_hint" : "forbidden",
+            "category" : "keyword",
+            "hit_hint" : "noargs",
+            "id" : 7544475573990267934,
+            "label" : "Keypirinha: Configure",
+            "loop_on_suggest" : false,
+            "plugin" : "Internal.About",
+            "short_desc" : "Edit Keypirinha's configuration file(s)",
+            "target" : "app_config"
+         }
+      ],
+      "terms" : [
+         {
+            "items" : [ 10727653551925446987 ],
+            "search" : "firef"
+         },
+         {
+            "items" : [ 7544475573990267934 ],
+            "search" : "kconfig"
+         }
+      ]
+   }
+}
